@@ -1,0 +1,21 @@
+/* CSS file for styling the HTML document */
+h1 {
+    color: green;
+    font-family: sans-serif;
+}
+
+p {
+    color: #b73100a8;
+    font-family: fantasy;
+}
+
+/* List style */
+ul {
+    list-style-image: url('images/pointer-icon.png');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+    list-style-type: upper-roman;
+    font-family: cursive;
+}
