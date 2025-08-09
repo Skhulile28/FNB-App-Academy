@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Variable Scope</title>
+</head>
+<body>
+    <p id="outputText"></p>
+
+    <script>
+        var someVariable = 100; // Global variable
+        someFunction(); // Call the function to display the value
+
+        function someFunction() {
+            document.getElementById('outputText').innerHTML = "The value of someVariable is: " + someVariable;
+        }
+    
+    </script>
+</body>
+</html>
